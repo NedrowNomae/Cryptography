@@ -32,5 +32,6 @@ print(code)
 print(encryptlist)
 back = ""
 for q in range(0,len(encryptlist)):
-    back = back + str(associations[q])
+    back = back + str(associations[encryptlist[q]])
+print(back)
 #associations[index]
