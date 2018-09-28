@@ -21,10 +21,9 @@ if todo == "e":
     msg = input("Message: ")
     code = ""
     for i in range(0,len(msg)):
-        code = code + associations.find(str(msg[i]))
+        code = code + str(associations.find(str(msg[i])))
     print("e")
 if todo == "d":
     print("d")
 if todo == "q":
     print("q")
-associations.find(str(msg[i])
