@@ -15,6 +15,7 @@ options = ["e","d","q"]
 encryptlist = []
 
 
+
 while todo not in options:
     print("Did not understand command, try again.")
     todo = input("Enter e to encrypt, d to decrypt, or q to quit: ")
@@ -32,6 +33,6 @@ print(code)
 print(encryptlist)
 back = ""
 for q in range(0,len(encryptlist)):
-    back = back + (associations[encryptlist[q]]
+    back = back + ((associations[encryptlist[q]])%26)
 print(back)
 #associations[index]
