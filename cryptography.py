@@ -12,6 +12,7 @@ See the detailed requirements at https://github.com/HHS-IntroProgramming/Cryptog
 associations = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 .,:;'\"/\\<>(){}[]-=_+?!"
 todo = input("Enter e to encrypt, d to decrypt, or q to quit: ")
 options = ["e","d","q"]
+encryptlist = []
 
 
 while todo not in options:
@@ -22,8 +23,14 @@ if todo == "e":
     code = ""
     for i in range(0,len(msg)):
         code = code + str(associations.find(str(msg[i])))
-    print("e")
+        encryptlist.append(str(associations.find(str(msg[i]))))
 if todo == "d":
     print("d")
 if todo == "q":
     print("q")
+print(code)
+print(encryptlist)
+back = ""
+for q in range(0,len(encryptlist)):
+    back = back + str(associations[q])
+#associations[index]
