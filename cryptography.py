@@ -13,12 +13,18 @@ associations = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 .
 todo = input("Enter e to encrypt, d to decrypt, or q to quit: ")
 options = ["e","d","q"]
 
+
 while todo not in options:
     print("Did not understand command, try again.")
     todo = input("Enter e to encrypt, d to decrypt, or q to quit: ")
 if todo == "e":
+    msg = input("Message: ")
+    code = ""
+    for i in range(0,len(msg):
+        code = code + associations.find(str(msg[i])
     print("e")
 if todo == "d":
     print("d")
 if todo == "q":
     print("q")
+associations.find(str(msg[i])
