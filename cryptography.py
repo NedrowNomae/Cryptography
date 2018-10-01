@@ -61,8 +61,7 @@ if todo == "d":
         w = associations[(associations.find(msglist[q]) - associations.find(keylist[q]))%85]
         uncryptlist = uncryptlist + str(w)
     print("uncryptlist: " + uncryptlist)
-if todo == "q":
-    print("q")
+
 
 
 #back = ""
