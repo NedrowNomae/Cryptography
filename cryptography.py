@@ -55,7 +55,7 @@ if todo == "d":
         k = len(keylist)
     print(keylist)
     #print(k)
-    encryptlist = ""
+    uncryptlist = ""
     e = len(msglist)
     for q in range(0,e):
         w = associations[(associations.find(msglist[q]) - associations.find(keylist[q]))%85]
