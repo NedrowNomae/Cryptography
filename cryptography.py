@@ -21,6 +21,13 @@ while todo not in options:
     todo = input("Enter e to encrypt, d to decrypt, or q to quit: ")
 if todo == "e":
     msg = input("Message: ")
+    key = input("Key: ")
+    k = len(key)
+    m = len(msg)
+    keylist = list(key)
+    if k<m:
+        keylist.append(keylist)
+    print(keylist)
     code = ""
     for i in range(0,len(msg)):
         code = code + str(associations.find(str(msg[i])))
