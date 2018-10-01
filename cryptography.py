@@ -37,9 +37,7 @@ if todo == "e":
     encryptlist = ""
     e = len(msglist)
     for q in range(0,e-1):
-        print(associations.find(msglist[e]))
-        print(associations.find(keylist[e]))
-        w = associations[associations.find(msglist[e]) + associations.find(keylist[e])]
+        w = associations[associations.find(msglist[q]) + associations.find(keylist[q])]
         print(w)
         encryptlist = encryptlist + str(w)
 if todo == "d":
