@@ -36,16 +36,16 @@ if todo == "e":
     print(k)
     encryptlist = ""
     for q in range(0,k-1):
-        w = associations.find(msglist[q]) + associations.find(keylist[q])
-        encryptlist = encyptlist + w
+        w = associations[associations.find(msglist[q]) + associations.find(keylist[q])]
+        encryptlist = encryptlist + str(w)
 if todo == "d":
     print("d")
 if todo == "q":
     print("q")
 
-print(encryptlist)
-back = ""
-for q in range(0,len(encryptlist)):
-    back = back + associations[int(encryptlist[q])]
-print("back: " + back)
+print("encryptlist: " + encryptlist)
+#back = ""
+#for q in range(0,len(encryptlist)):
+    #back = back + associations[int(encryptlist[q])]
+#print("back: " + back)
 #associations[index]
