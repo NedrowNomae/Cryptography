@@ -32,15 +32,12 @@ if todo == "e":
         keylist.pop()
         k = len(keylist)
     print(keylist)
-    code = ""
-    for i in range(0,len(msg)):
-        code = code + str(associations.find(str(msg[i])))
-        encryptlist.append(str(associations.find(str(msg[i]))))
+    print(k)
 if todo == "d":
     print("d")
 if todo == "q":
     print("q")
-print(code)
+
 print(encryptlist)
 back = ""
 for q in range(0,len(encryptlist)):
