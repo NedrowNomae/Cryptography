@@ -39,7 +39,7 @@ if todo == "e":
     for q in range(0,e):
         w = associations[(associations.find(msglist[q]) + associations.find(keylist[q]))%85]
         encryptlist = encryptlist + str(w)
-    print("encryptlist: " + encryptlist)
+    print(encryptlist)
 if todo == "d":
     msg = input("Message: ")
     key = input("Key: ")
@@ -60,8 +60,9 @@ if todo == "d":
     for q in range(0,e):
         w = associations[(associations.find(msglist[q]) - associations.find(keylist[q]))%85]
         uncryptlist = uncryptlist + str(w)
-    print("uncryptlist: " + uncryptlist)
-
+    print(uncryptlist)
+if todo == "q":
+    print("Goodbye!")
 
 
 #back = ""
