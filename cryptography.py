@@ -28,6 +28,9 @@ if todo == "e":
     while k<m:
         keylist.extend(keylist)
         k = len(keylist)
+    while k>m:
+        keylist.pop()
+        k = len(keylist)
     print(keylist)
     code = ""
     for i in range(0,len(msg)):
