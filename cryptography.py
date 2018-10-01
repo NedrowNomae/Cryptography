@@ -32,7 +32,7 @@ if todo == "e":
     while k>m:
         keylist.pop()
         k = len(keylist)
-    print(keylist)
+    #print(keylist)
     #print(k)
     encryptlist = ""
     e = len(msglist)
