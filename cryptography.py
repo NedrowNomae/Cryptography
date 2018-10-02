@@ -11,11 +11,13 @@ See the detailed requirements at https://github.com/HHS-IntroProgramming/Cryptog
 """
 associations = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 .,:;'\"/\\<>(){}[]-=_+?!"
 todo = input("Enter e to encrypt, d to decrypt, or q to quit: ")
+q = ["q"]
 options = ["e","d"]
 
 
 
-while todo not == "q":
+
+while todo in q:
     while todo not in options:
         print("Did not understand command, try again.")
         todo = input("Enter e to encrypt, d to decrypt, or q to quit: ")
