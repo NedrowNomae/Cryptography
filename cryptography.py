@@ -65,6 +65,7 @@ while a == b:
         print(uncryptlist)
         todo = input("Enter e to encrypt, d to decrypt, or q to quit: ")
     else:
+        print("Goodbye!")
         b=2
     
     
