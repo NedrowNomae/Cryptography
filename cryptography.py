@@ -68,11 +68,11 @@ while a == b:
         b=2
     
     
-    """if todo == "q":
-        print("Goodbye!")
-        b=2
-        a=5
-        todo = "q""""
+    #if todo == "q":
+        #print("Goodbye!")
+        #b=2
+        #a=5
+        #todo = "q
 
 
 
