@@ -53,7 +53,7 @@ if todo == "d":
     while k>m:
         keylist.pop()
         k = len(keylist)
-    print(keylist)
+    #print(keylist)
     #print(k)
     uncryptlist = ""
     e = len(msglist)
