@@ -3,7 +3,7 @@ cryptography.py
 Author: Eamon
 Credit: none
 
-Assignment:
+Assignment: cryptography
 
 Write and submit a program that encrypts and decrypts user data.
 
