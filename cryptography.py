@@ -67,10 +67,8 @@ while a == b:
     if todo == "q":
         print("Goodbye!")
         b=2
+        a=5
+        todo = "q"
 
 
-#back = ""
-#for q in range(0,len(encryptlist)):
-    #back = back + associations[int(encryptlist[q])]
-#print("back: " + back)
-#associations[index]
+
