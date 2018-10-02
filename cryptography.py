@@ -15,7 +15,7 @@ options = ["e","d"]
 
 
 
-while todo not "q":
+while todo not == "q":
     while todo not in options:
         print("Did not understand command, try again.")
         todo = input("Enter e to encrypt, d to decrypt, or q to quit: ")
