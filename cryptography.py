@@ -63,12 +63,16 @@ while a == b:
             w = associations[(associations.find(msglist[q]) - associations.find(keylist[q]))%85]
             uncryptlist = uncryptlist + str(w)
         print(uncryptlist)
-    todo = input("Enter e to encrypt, d to decrypt, or q to quit: ")
-    if todo == "q":
+        todo = input("Enter e to encrypt, d to decrypt, or q to quit: ")
+    else:
+        b=2
+    
+    
+    """if todo == "q":
         print("Goodbye!")
         b=2
         a=5
-        todo = "q"
+        todo = "q""""
 
 
 
